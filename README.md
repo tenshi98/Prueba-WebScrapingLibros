@@ -6,11 +6,11 @@ Proyecto completo de web scraping en Python para extraer información de libros 
 
 - ✅ **Ejecución standalone**: Usa dependencias del sistema (no requiere `pip install`)
 - ✅ **Chromium**: Usa chromedriver del sistema
-- ✅ **Extracción inteligente**: 
+- ✅ **Extracción inteligente**:
   - Info básica de **3 páginas** del catálogo
   - Detalles completos de **5 libros** (descripción, UPC, categoría)
 - ✅ Almacenamiento en base de datos SQLite
-- ✅ Detección automática de duplicados por UPC
+- ✅ Detección automática de duplicados por UPC y por Titulo
 - ✅ Rate limiting para no sobrecargar el servidor
 - ✅ Sistema de logging completo (INFO, WARNING, ERROR)
 - ✅ Manejo robusto de errores y reintentos
@@ -76,7 +76,7 @@ python3 -c "import selenium; print(selenium.__version__)"
 ### 1. Clonar o descargar el proyecto
 
 ```bash
-cd /home/tenshi98/.gemini/antigravity/scratch/books_scraper_standalone
+git clone https://github.com/tenshi98/Prueba-WebScrapingLibros.git
 ```
 
 ### 2. Verificar estructura
@@ -87,7 +87,7 @@ ls -la
 
 Deberías ver:
 ```
-books_scraper_standalone/
+Prueba-WebScrapingLibros/
 ├── database/
 ├── scraper/
 ├── utils/
@@ -169,7 +169,7 @@ Total en base de datos: 60
 ## 📁 Estructura del Proyecto
 
 ```
-books_scraper_standalone/
+Prueba-WebScrapingLibros/
 ├── database/
 │   ├── __init__.py
 │   └── db_manager.py          # Gestión de base de datos SQLite
