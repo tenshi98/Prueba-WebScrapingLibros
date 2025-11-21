@@ -1,0 +1,177 @@
+2025-11-21 13:58:10 - database.db_manager - INFO - Tabla 'libros' verificada/creada exitosamente
+2025-11-21 13:58:10 - database.db_manager - INFO - Libro insertado exitosamente: Libro de Prueba 1
+2025-11-21 13:58:10 - database.db_manager - INFO - Libro duplicado (UPC: ABC123456789), omitiendo: Libro de Prueba 1 (Título diferente)
+2025-11-21 13:58:10 - database.db_manager - INFO - Libro insertado exitosamente: Libro Sin UPC
+2025-11-21 13:58:10 - database.db_manager - INFO - Libro duplicado (por título), omitiendo: Libro Sin UPC
+2025-11-21 13:58:10 - database.db_manager - INFO - Libro insertado exitosamente: Otro Libro Sin UPC
+2025-11-21 14:01:32 - __main__ - INFO - ================================================================================
+2025-11-21 14:01:32 - __main__ - INFO - Iniciando proceso de web scraping - Books to Scrape (Standalone)
+2025-11-21 14:01:32 - __main__ - INFO - ================================================================================
+2025-11-21 14:01:32 - __main__ - INFO - Inicializando base de datos...
+2025-11-21 14:01:32 - database.db_manager - INFO - Tabla 'libros' verificada/creada exitosamente
+2025-11-21 14:01:32 - __main__ - INFO - Libros en base de datos antes del scraping: 3
+2025-11-21 14:01:32 - __main__ - INFO - Inicializando scraper con Chromium...
+2025-11-21 14:01:32 - scraper.book_scraper - INFO - Usando chromedriver en: /usr/bin/chromedriver
+2025-11-21 14:01:33 - scraper.book_scraper - INFO - WebDriver de Chromium inicializado correctamente
+2025-11-21 14:01:33 - __main__ - INFO - Iniciando extracción de libros...
+2025-11-21 14:01:33 - __main__ - INFO - Estrategia: Info básica de 3 páginas + detalles completos de 5 libros
+2025-11-21 14:01:33 - scraper.book_scraper - INFO - Procesando página 1/3: https://books.toscrape.com/catalogue/page-1.html
+2025-11-21 14:01:34 - scraper.book_scraper - INFO - Página cargada exitosamente: https://books.toscrape.com/catalogue/page-1.html
+2025-11-21 14:01:34 - scraper.book_scraper - INFO - Encontrados 20 libros en la página
+2025-11-21 14:01:34 - scraper.book_scraper - INFO - Extrayendo detalles del libro 1: A Light in the Attic
+2025-11-21 14:01:36 - scraper.book_scraper - INFO - Página cargada exitosamente: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2025-11-21 14:01:37 - scraper.book_scraper - INFO - Libro extraído: A Light in the Attic (detalles: True)
+2025-11-21 14:01:37 - scraper.book_scraper - INFO - Extrayendo detalles del libro 2: Tipping the Velvet
+2025-11-21 14:01:40 - scraper.book_scraper - INFO - Página cargada exitosamente: https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+2025-11-21 14:01:41 - scraper.book_scraper - INFO - Libro extraído: Tipping the Velvet (detalles: True)
+2025-11-21 14:01:41 - scraper.book_scraper - INFO - Extrayendo detalles del libro 3: Soumission
+2025-11-21 14:01:43 - scraper.book_scraper - INFO - Página cargada exitosamente: https://books.toscrape.com/catalogue/soumission_998/index.html
+2025-11-21 14:01:45 - scraper.book_scraper - INFO - Libro extraído: Soumission (detalles: True)
+2025-11-21 14:01:45 - scraper.book_scraper - INFO - Extrayendo detalles del libro 4: Sharp Objects
+2025-11-21 14:01:47 - scraper.book_scraper - INFO - Página cargada exitosamente: https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+2025-11-21 14:01:48 - scraper.book_scraper - INFO - Libro extraído: Sharp Objects (detalles: True)
+2025-11-21 14:01:48 - scraper.book_scraper - INFO - Extrayendo detalles del libro 5: Sapiens: A Brief History of Humankind
+2025-11-21 14:01:51 - scraper.book_scraper - INFO - Página cargada exitosamente: https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+2025-11-21 14:01:52 - scraper.book_scraper - INFO - Libro extraído: Sapiens: A Brief History of Humankind (detalles: True)
+2025-11-21 14:01:52 - scraper.book_scraper - INFO - Libro extraído: The Requiem Red (detalles: False)
+2025-11-21 14:01:52 - scraper.book_scraper - INFO - Libro extraído: The Dirty Little Secrets of Getting Your Dream Job (detalles: False)
+2025-11-21 14:01:52 - scraper.book_scraper - INFO - Libro extraído: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull (detalles: False)
+2025-11-21 14:01:52 - scraper.book_scraper - INFO - Libro extraído: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics (detalles: False)
+2025-11-21 14:01:53 - scraper.book_scraper - INFO - Libro extraído: The Black Maria (detalles: False)
+2025-11-21 14:01:53 - scraper.book_scraper - INFO - Libro extraído: Starving Hearts (Triangular Trade Trilogy, #1) (detalles: False)
+2025-11-21 14:01:53 - scraper.book_scraper - INFO - Libro extraído: Shakespeare's Sonnets (detalles: False)
+2025-11-21 14:01:53 - scraper.book_scraper - INFO - Libro extraído: Set Me Free (detalles: False)
+2025-11-21 14:01:53 - scraper.book_scraper - INFO - Libro extraído: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) (detalles: False)
+2025-11-21 14:01:53 - scraper.book_scraper - INFO - Libro extraído: Rip it Up and Start Again (detalles: False)
+2025-11-21 14:01:53 - scraper.book_scraper - INFO - Libro extraído: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 (detalles: False)
+2025-11-21 14:01:53 - scraper.book_scraper - INFO - Libro extraído: Olio (detalles: False)
+2025-11-21 14:01:53 - scraper.book_scraper - INFO - Libro extraído: Mesaerion: The Best Science Fiction Stories 1800-1849 (detalles: False)
+2025-11-21 14:01:53 - scraper.book_scraper - INFO - Libro extraído: Libertarianism for Beginners (detalles: False)
+2025-11-21 14:01:54 - scraper.book_scraper - INFO - Libro extraído: It's Only the Himalayas (detalles: False)
+2025-11-21 14:01:54 - scraper.book_scraper - INFO - Página 1 completada. Libros: 20, Con detalles: 5/5
+2025-11-21 14:01:54 - scraper.book_scraper - INFO - Alcanzado límite de 5 libros con detalles completos
+2025-11-21 14:01:56 - scraper.book_scraper - INFO - Procesando página 2/3: https://books.toscrape.com/catalogue/page-2.html
+2025-11-21 14:01:56 - scraper.book_scraper - INFO - Página cargada exitosamente: https://books.toscrape.com/catalogue/page-2.html
+2025-11-21 14:01:56 - scraper.book_scraper - INFO - Encontrados 20 libros en la página
+2025-11-21 14:01:56 - scraper.book_scraper - INFO - Libro extraído: In Her Wake (detalles: False)
+2025-11-21 14:01:56 - scraper.book_scraper - INFO - Libro extraído: How Music Works (detalles: False)
+2025-11-21 14:01:57 - scraper.book_scraper - INFO - Libro extraído: Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More (detalles: False)
+2025-11-21 14:01:57 - scraper.book_scraper - INFO - Libro extraído: Chase Me (Paris Nights #2) (detalles: False)
+2025-11-21 14:01:57 - scraper.book_scraper - INFO - Libro extraído: Black Dust (detalles: False)
+2025-11-21 14:01:57 - scraper.book_scraper - INFO - Libro extraído: Birdsong: A Story in Pictures (detalles: False)
+2025-11-21 14:01:57 - scraper.book_scraper - INFO - Libro extraído: America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana (detalles: False)
+2025-11-21 14:01:57 - scraper.book_scraper - INFO - Libro extraído: Aladdin and His Wonderful Lamp (detalles: False)
+2025-11-21 14:01:57 - scraper.book_scraper - INFO - Libro extraído: Worlds Elsewhere: Journeys Around Shakespeare’s Globe (detalles: False)
+2025-11-21 14:01:57 - scraper.book_scraper - INFO - Libro extraído: Wall and Piece (detalles: False)
+2025-11-21 14:01:57 - scraper.book_scraper - INFO - Libro extraído: The Four Agreements: A Practical Guide to Personal Freedom (detalles: False)
+2025-11-21 14:01:57 - scraper.book_scraper - INFO - Libro extraído: The Five Love Languages: How to Express Heartfelt Commitment to Your Mate (detalles: False)
+2025-11-21 14:01:58 - scraper.book_scraper - INFO - Libro extraído: The Elephant Tree (detalles: False)
+2025-11-21 14:01:58 - scraper.book_scraper - INFO - Libro extraído: The Bear and the Piano (detalles: False)
+2025-11-21 14:01:58 - scraper.book_scraper - INFO - Libro extraído: Sophie's World (detalles: False)
+2025-11-21 14:01:58 - scraper.book_scraper - INFO - Libro extraído: Penny Maybe (detalles: False)
+2025-11-21 14:01:58 - scraper.book_scraper - INFO - Libro extraído: Maude (1883-1993):She Grew Up with the country (detalles: False)
+2025-11-21 14:01:58 - scraper.book_scraper - INFO - Libro extraído: In a Dark, Dark Wood (detalles: False)
+2025-11-21 14:01:58 - scraper.book_scraper - INFO - Libro extraído: Behind Closed Doors (detalles: False)
+2025-11-21 14:01:58 - scraper.book_scraper - INFO - Libro extraído: You can't bury them all: Poems (detalles: False)
+2025-11-21 14:01:58 - scraper.book_scraper - INFO - Página 2 completada. Libros: 20, Con detalles: 5/5
+2025-11-21 14:01:58 - scraper.book_scraper - INFO - Alcanzado límite de 5 libros con detalles completos
+2025-11-21 14:02:00 - scraper.book_scraper - INFO - Procesando página 3/3: https://books.toscrape.com/catalogue/page-3.html
+2025-11-21 14:02:01 - scraper.book_scraper - INFO - Página cargada exitosamente: https://books.toscrape.com/catalogue/page-3.html
+2025-11-21 14:02:01 - scraper.book_scraper - INFO - Encontrados 20 libros en la página
+2025-11-21 14:02:01 - scraper.book_scraper - INFO - Libro extraído: Slow States of Collapse: Poems (detalles: False)
+2025-11-21 14:02:01 - scraper.book_scraper - INFO - Libro extraído: Reasons to Stay Alive (detalles: False)
+2025-11-21 14:02:01 - scraper.book_scraper - INFO - Libro extraído: Private Paris (Private #10) (detalles: False)
+2025-11-21 14:02:01 - scraper.book_scraper - INFO - Libro extraído: #HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe. (detalles: False)
+2025-11-21 14:02:01 - scraper.book_scraper - INFO - Libro extraído: Without Borders (Wanderlove #1) (detalles: False)
+2025-11-21 14:02:02 - scraper.book_scraper - INFO - Libro extraído: When We Collided (detalles: False)
+2025-11-21 14:02:02 - scraper.book_scraper - INFO - Libro extraído: We Love You, Charlie Freeman (detalles: False)
+2025-11-21 14:02:02 - scraper.book_scraper - INFO - Libro extraído: Untitled Collection: Sabbath Poems 2014 (detalles: False)
+2025-11-21 14:02:02 - scraper.book_scraper - INFO - Libro extraído: Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness (detalles: False)
+2025-11-21 14:02:02 - scraper.book_scraper - INFO - Libro extraído: Unicorn Tracks (detalles: False)
+2025-11-21 14:02:02 - scraper.book_scraper - INFO - Libro extraído: Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink (detalles: False)
+2025-11-21 14:02:02 - scraper.book_scraper - INFO - Libro extraído: Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2) (detalles: False)
+2025-11-21 14:02:02 - scraper.book_scraper - INFO - Libro extraído: Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity (detalles: False)
+2025-11-21 14:02:02 - scraper.book_scraper - INFO - Libro extraído: This One Summer (detalles: False)
+2025-11-21 14:02:02 - scraper.book_scraper - INFO - Libro extraído: Thirst (detalles: False)
+2025-11-21 14:02:02 - scraper.book_scraper - INFO - Libro extraído: The Torch Is Passed: A Harding Family Story (detalles: False)
+2025-11-21 14:02:03 - scraper.book_scraper - INFO - Libro extraído: The Secret of Dreadwillow Carse (detalles: False)
+2025-11-21 14:02:03 - scraper.book_scraper - INFO - Libro extraído: The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper! (detalles: False)
+2025-11-21 14:02:03 - scraper.book_scraper - INFO - Libro extraído: The Past Never Ends (detalles: False)
+2025-11-21 14:02:03 - scraper.book_scraper - INFO - Libro extraído: The Natural History of Us (The Fine Art of Pretending #2) (detalles: False)
+2025-11-21 14:02:03 - scraper.book_scraper - INFO - Página 3 completada. Libros: 20, Con detalles: 5/5
+2025-11-21 14:02:03 - scraper.book_scraper - INFO - Alcanzado límite de 5 libros con detalles completos
+2025-11-21 14:02:03 - scraper.book_scraper - INFO - Scraping completado. Total: 60 libros, Con detalles: 5
+2025-11-21 14:02:03 - __main__ - INFO - Guardando 60 libros en la base de datos...
+2025-11-21 14:02:03 - database.db_manager - INFO - Libro insertado exitosamente: A Light in the Attic
+2025-11-21 14:02:03 - database.db_manager - INFO - Libro insertado exitosamente: Tipping the Velvet
+2025-11-21 14:02:03 - database.db_manager - INFO - Libro insertado exitosamente: Soumission
+2025-11-21 14:02:03 - database.db_manager - INFO - Libro insertado exitosamente: Sharp Objects
+2025-11-21 14:02:03 - database.db_manager - INFO - Libro insertado exitosamente: Sapiens: A Brief History of Humankind
+2025-11-21 14:02:03 - database.db_manager - INFO - Libro insertado exitosamente: The Requiem Red
+2025-11-21 14:02:03 - database.db_manager - INFO - Libro insertado exitosamente: The Dirty Little Secrets of Getting Your Dream Job
+2025-11-21 14:02:03 - database.db_manager - INFO - Libro insertado exitosamente: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull
+2025-11-21 14:02:03 - database.db_manager - INFO - Libro insertado exitosamente: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics
+2025-11-21 14:02:04 - database.db_manager - INFO - Libro insertado exitosamente: The Black Maria
+2025-11-21 14:02:04 - database.db_manager - INFO - Libro insertado exitosamente: Starving Hearts (Triangular Trade Trilogy, #1)
+2025-11-21 14:02:04 - database.db_manager - INFO - Libro insertado exitosamente: Shakespeare's Sonnets
+2025-11-21 14:02:04 - database.db_manager - INFO - Libro insertado exitosamente: Set Me Free
+2025-11-21 14:02:04 - database.db_manager - INFO - Libro insertado exitosamente: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)
+2025-11-21 14:02:04 - database.db_manager - INFO - Libro insertado exitosamente: Rip it Up and Start Again
+2025-11-21 14:02:04 - database.db_manager - INFO - Libro insertado exitosamente: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991
+2025-11-21 14:02:04 - database.db_manager - INFO - Libro insertado exitosamente: Olio
+2025-11-21 14:02:04 - database.db_manager - INFO - Libro insertado exitosamente: Mesaerion: The Best Science Fiction Stories 1800-1849
+2025-11-21 14:02:04 - database.db_manager - INFO - Libro insertado exitosamente: Libertarianism for Beginners
+2025-11-21 14:02:04 - database.db_manager - INFO - Libro insertado exitosamente: It's Only the Himalayas
+2025-11-21 14:02:04 - database.db_manager - INFO - Libro insertado exitosamente: In Her Wake
+2025-11-21 14:02:05 - database.db_manager - INFO - Libro insertado exitosamente: How Music Works
+2025-11-21 14:02:05 - database.db_manager - INFO - Libro insertado exitosamente: Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More
+2025-11-21 14:02:05 - database.db_manager - INFO - Libro insertado exitosamente: Chase Me (Paris Nights #2)
+2025-11-21 14:02:05 - database.db_manager - INFO - Libro insertado exitosamente: Black Dust
+2025-11-21 14:02:05 - database.db_manager - INFO - Libro insertado exitosamente: Birdsong: A Story in Pictures
+2025-11-21 14:02:05 - database.db_manager - INFO - Libro insertado exitosamente: America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana
+2025-11-21 14:02:05 - database.db_manager - INFO - Libro insertado exitosamente: Aladdin and His Wonderful Lamp
+2025-11-21 14:02:05 - database.db_manager - INFO - Libro insertado exitosamente: Worlds Elsewhere: Journeys Around Shakespeare’s Globe
+2025-11-21 14:02:05 - database.db_manager - INFO - Libro insertado exitosamente: Wall and Piece
+2025-11-21 14:02:05 - database.db_manager - INFO - Libro insertado exitosamente: The Four Agreements: A Practical Guide to Personal Freedom
+2025-11-21 14:02:05 - database.db_manager - INFO - Libro insertado exitosamente: The Five Love Languages: How to Express Heartfelt Commitment to Your Mate
+2025-11-21 14:02:05 - database.db_manager - INFO - Libro insertado exitosamente: The Elephant Tree
+2025-11-21 14:02:05 - database.db_manager - INFO - Libro insertado exitosamente: The Bear and the Piano
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: Sophie's World
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: Penny Maybe
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: Maude (1883-1993):She Grew Up with the country
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: In a Dark, Dark Wood
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: Behind Closed Doors
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: You can't bury them all: Poems
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: Slow States of Collapse: Poems
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: Reasons to Stay Alive
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: Private Paris (Private #10)
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: #HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: Without Borders (Wanderlove #1)
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: When We Collided
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: We Love You, Charlie Freeman
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: Untitled Collection: Sabbath Poems 2014
+2025-11-21 14:02:06 - database.db_manager - INFO - Libro insertado exitosamente: Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness
+2025-11-21 14:02:07 - database.db_manager - INFO - Libro insertado exitosamente: Unicorn Tracks
+2025-11-21 14:02:07 - database.db_manager - INFO - Libro insertado exitosamente: Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink
+2025-11-21 14:02:07 - database.db_manager - INFO - Libro insertado exitosamente: Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)
+2025-11-21 14:02:07 - database.db_manager - INFO - Libro insertado exitosamente: Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity
+2025-11-21 14:02:07 - database.db_manager - INFO - Libro insertado exitosamente: This One Summer
+2025-11-21 14:02:07 - database.db_manager - INFO - Libro insertado exitosamente: Thirst
+2025-11-21 14:02:07 - database.db_manager - INFO - Libro insertado exitosamente: The Torch Is Passed: A Harding Family Story
+2025-11-21 14:02:07 - database.db_manager - INFO - Libro insertado exitosamente: The Secret of Dreadwillow Carse
+2025-11-21 14:02:07 - database.db_manager - INFO - Libro insertado exitosamente: The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!
+2025-11-21 14:02:07 - database.db_manager - INFO - Libro insertado exitosamente: The Past Never Ends
+2025-11-21 14:02:07 - database.db_manager - INFO - Libro insertado exitosamente: The Natural History of Us (The Fine Art of Pretending #2)
+2025-11-21 14:02:07 - __main__ - INFO - ================================================================================
+2025-11-21 14:02:07 - __main__ - INFO - Proceso de scraping completado
+2025-11-21 14:02:07 - __main__ - INFO - ================================================================================
+2025-11-21 14:02:07 - __main__ - INFO - Libros extraídos: 60
+2025-11-21 14:02:07 - __main__ - INFO - Libros insertados: 60
+2025-11-21 14:02:07 - __main__ - INFO - Libros con detalles completos: 5
+2025-11-21 14:02:07 - __main__ - INFO - Libros duplicados: 0
+2025-11-21 14:02:07 - __main__ - INFO - Errores: 0
+2025-11-21 14:02:07 - __main__ - INFO - Total en base de datos: 63
+2025-11-21 14:02:07 - __main__ - INFO - ================================================================================
+2025-11-21 14:02:07 - __main__ - INFO - Cerrando scraper...
+2025-11-21 14:02:07 - scraper.book_scraper - INFO - WebDriver cerrado correctamente
+2025-11-21 14:02:07 - __main__ - INFO - Proceso finalizado
